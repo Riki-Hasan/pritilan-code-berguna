@@ -26,3 +26,29 @@ describe('latihan', ()=>{
         assert.equal(hasil, expected)
     })
 });
+
+
+
+menggunakan bun
+Jika Node.js menggunakan assert untuk menguji nilai, Bun menggunakan expect dan matcher. 
+=> expect() menerima satu parameter yang menjadi actual value
+=> .toBe() sebagai matcher untuk mengujinya dengan expected value. 
+
+=> install 
+powershell -c "iwr bun.sh/install.ps1 | iex"
+
+=> verifikasi bun
+bun --version
+
+syntack nya seperti berikut:
+
+describe('latihan', ()=>{
+    it('testing pertama', ()>{
+
+        code 
+
+        //pengujian
+
+        expect().toBe()
+    })
+});
